@@ -24,6 +24,12 @@ module.exports.routes = {
   'GET /person/view/:id' : 'PersonController.view',
   'POST /person/delete/:id' : 'PersonController.delete',
   '/person/update/:id' : 'PersonController.update',
+  '/person/create' : 'PersonController.create',
+  '/person/json' : 'PersonController.json',
+  '/person/index' : 'PersonController.index',
+  '/person/search' : 'PersonController.search',
+  '/person/paginate' : 'PersonController.paginate',
+
 
 
   /***************************************************************************
